@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import AddTransaction from "./AddTransaction";
-import OverviewComponent from "./OverviewComponent";
-import TransactionsContainer from "./TransactionsContainer";
+import AddTransaction from "../components/AddTransaction";
+import OverviewComponent from "../components/OverviewComponent";
+import TransactionsContainer from "../components/TransactionsContainer";
 
 const Container = styled.div`
   display: flex;
