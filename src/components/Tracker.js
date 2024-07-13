@@ -94,7 +94,7 @@ const Tracker = () => {
 
   return (
     <Container>
-      <THeading>Money Saver</THeading>
+      <THeading>GeeksforGeeks</THeading>
       <Heading>Expense Tracker</Heading>
       <OverviewComponent
         toggle={toggle}
@@ -112,11 +112,11 @@ const Tracker = () => {
 
       <TransactionDetails>
         <ExpenseBox isExpense>
-          Expense <span>£{expense}</span>
+          Expense <span>₹{expense}</span>
         </ExpenseBox>
 
         <IncomeBox>
-          Budget <span>£{income}</span>
+          Budget <span>₹{income}</span>
         </IncomeBox>
       </TransactionDetails>
 
