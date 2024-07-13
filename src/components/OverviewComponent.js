@@ -31,7 +31,7 @@ const OverviewComponent = ({ toggle, setToggle, income, expense }) => {
   return (
     <Container>
       <Balance>
-        Balance <span>₹{bal}</span>
+        Balance <span>£{bal}</span>
       </Balance>
       <AddBtn onClick={() => setToggle(!toggle)}>
         {toggle ? "Cancel" : "Add"}
